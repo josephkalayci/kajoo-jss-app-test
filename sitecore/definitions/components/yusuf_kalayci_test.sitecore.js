@@ -1,6 +1,5 @@
 import { CommonFieldTypes, SitecoreIcon, Manifest } from "@sitecore-jss/sitecore-jss-manifest";
 
-
 export default function (manifest) {
   manifest.addComponent({
     name: "yusuf_kalayci_test",
