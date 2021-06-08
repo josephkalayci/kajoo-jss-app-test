@@ -8,13 +8,11 @@ const YusufKalayciTest44 = (props) => {
   return (
     <div className="yusuf_kalayci_test_44-container">
       <Image field={props.fields.image_1} className="yusuf_kalayci_test_44-image"></Image>
-      <div className="yusuf_kalayci_test_44-container1">
-        <Header field={props.fields.header_0} className="yusuf_kalayci_test_44-header"></Header>
-        <Paragraph
-          field={props.fields.paragraph_2}
-          className="yusuf_kalayci_test_44-paragraph"
-        ></Paragraph>
-      </div>
+      <Header field={props.fields.header_0} className="yusuf_kalayci_test_44-header"></Header>
+      <Paragraph
+        field={props.fields.paragraph_2}
+        className="yusuf_kalayci_test_44-paragraph"
+      ></Paragraph>
     </div>
   )
 }
